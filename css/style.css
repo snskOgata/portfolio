@@ -240,6 +240,13 @@ li {
 #works .card-image {
   display: block;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#works .card-image img{
+  max-height: 283px;
 }
 
 #works .card-caption-title {
