@@ -1,444 +1,590 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="小形俊輔のポートフォリオ" />
+    <meta property="og:url" content="URL入る" />
+    <meta property="og:description" content="小形俊輔のポートフォリオです。" />
+    <meta property="og:image" content="img/ogp.png" />
+    <meta name="description" content="小形俊輔のポートフォリオです。" />
+    <title>Webエンジニア 小形俊輔 ポートフォリオ</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link
+      href="css/photoswipe/photoswipe.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="css/photoswipe/default-skin/default-skin.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <meta property='og:type' content='website'>
-  <meta property='og:title' content='小形俊輔のポートフォリオ'>
-  <meta property='og:url' content='URL入る'>
-  <meta property='og:description' content='小形俊輔のポートフォリオです。'>
-  <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="小形俊輔のポートフォリオです。" />
-  <title>Webエンジニア 小形俊輔 ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="img/favicon.ico" />
-</head>
-
-<body>
-  <div id="wrapper">
-    <header id="header">
-      <h1 class="logo">
-        <span class="logo-name">Shunsuke Ogata’s</span>
-        <span class="logo-title">PORTFOLIO</span>
-      </h1>
-    </header>
-    <nav id="gnav">
-      <ul>
-        <li><a href="#works">WORKS</a></li>
-        <li><a href="#feature">FEATURE</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skill">SKILL</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </nav>
-    <main id="contents">
-      <section class="section" id="works">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">WORKS</h2>
-            <div class="section-desc">
-              <p class="text">
-                これまでの制作実績です。</p>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <h1 class="logo">
+          <span class="logo-name">Shunsuke Ogata’s</span>
+          <span class="logo-title">PORTFOLIO</span>
+        </h1>
+      </header>
+      <nav id="gnav">
+        <ul>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#feature">FEATURE</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <main id="contents">
+        <section class="section" id="works">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title">WORKS</h2>
+              <div class="section-desc">
+                <p class="text">
+                  これまでの制作実績です。
+                </p>
+              </div>
+            </div>
+            <div class="card-wrapper my-gallery">
+              <figure class="card">
+                <a
+                  href="img/works/work01.jpg"
+                  data-size="2880x1578"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">
+                    フリマアプリケーション(Rails)
+                    <span class="card-caption-url"
+                      ><a
+                        class="url-link"
+                        href="http://18.177.240.72/"
+                        target="_blank"
+                        >Link</a
+                      ></span
+                    >
+                  </p>
+                  <div>
+                    <p>
+                      <br />スクールのチーム開発で作成したアプリケーション
+                      <br />担当箇所は、AWSへのデプロイ関連全般(EC2の設定等、自動デプロイ、S3、本番環境でのエラー対処)、カテゴリ機能全般、出品機能、商品編集機能全般、etc...
+                      <br />GitHub(issue)
+                      <a
+                        href="https://github.com/snskOgata/freemarket_sample_68a/issues/56"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >フリマアプリ</a
+                      >
+                      <br />(テスト用アカウントなどが記載されています)
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="card">
+                <a
+                  href="img/works/work02.jpg"
+                  data-size="2874x1560"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">
+                    画像投稿アプリケーション(Rails x React)
+                  </p>
+                  <div>
+                    <p>
+                      <br />Rails APIとReact SPAの画像投稿アプリケーション
+                      <br />React側の使用技術としてはredux, react router, thunk,
+                      react-token-auth, bootstrapなど <br />GitHub:<a
+                        href="https://github.com/snskOgata/pict-tweet-front-end"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >React SPA</a
+                      >,
+                      <a
+                        href="https://github.com/snskOgata/pict-tweet-server-side"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Rails API</a
+                      >
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="card">
+                <a
+                  href="img/works/work03.jpg"
+                  data-size="2880x1580"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work03.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">
+                    リアルタイムチャットアプリケーション(Rails)
+                  </p>
+                  <p>
+                    <br />スクールで作ったチャットアプリケーション
+                    <br />Railsの基本に加えて、非同期通信を用いて、コメントのリアルタイム表示やインクリメンタルサーチを実装
+                    <br />またカリキュラム外で、RSpecでのテスト駆動開発を用いて再構築を行い、TDDを経験した
+                    <br />GitHub:
+                    <a
+                      href="https://github.com/snskOgata/chat-space"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >通常盤</a
+                    >,
+                    <a
+                      href="https://github.com/snskOgata/tdd-chat-space"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >TDD版</a
+                    >
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="card">
+                <a
+                  href="img/works/work04.jpg"
+                  data-size="1650x1630"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work04.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">
+                    iOS用ゲーム(objective-C/swift)
+                  </p>
+                  <p>
+                    <br />学部時代に作成したiOS用のゲームアプリケーション
+                    <br />一方はobjective-C、もう一方はswiftで記述
+                    <br />リポジトリは以前使用していたものです <br />GitHub:
+                    <a
+                      href="https://github.com/ShunsukeOgata/BouncingBear"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >棒避けゲーム</a
+                    >,
+                    <a
+                      href="https://github.com/ShunsukeOgata/TapFast"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >早押しゲーム</a
+                    >
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="card">
+                <a
+                  href="img/works/work05.jpg"
+                  data-size="1800x1366"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work05.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">
+                    強化学習を用いたオセロAI(Java)
+                  </p>
+                  <p>
+                    <br />研究室で作った強化学習AI
+                    <br />アルゴリズムを調べ、それを実際のアプリケーションに組み込んだ。これにより、min-max法で四隅をより取ってくるAIに対して、勝敗のみから学習をし、結果
+                    端を取らせつつも中央を取り切って勝つようなった <br />GitHub:
+                    <a
+                      href="https://github.com/snskOgata/Othello_RLAI"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Othello_RLAI</a
+                    >
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="card">
+                <a
+                  href="img/works/work06.jpg"
+                  data-size="980x668"
+                  class="card-image"
+                >
+                  <img src="img/works/thumb/thumb_work06.jpg" alt="" />
+                </a>
+                <figcaption class="card-caption">
+                  <p class="card-caption-title">実データを用いたSVM</p>
+                  <p>
+                    <br />学部3年時に発表した、看護師スケジューリングデータを用いたインシデント発生検知方式(教師あり学習)
+                    <br />実際のスケジューリングデータから、インシデントの発生の有無を判断するサポートベクターマシン(SVM)を作成し、その実用性を論じたもの
+                    <br />論文：
+                    <a
+                      href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=162732"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >情報処理学会 電子図書館</a
+                    >
+                  </p>
+                </figcaption>
+              </figure>
             </div>
           </div>
-          <div class="card-wrapper my-gallery">
-            <figure class="card">
-              <a href="img/works/work01.jpg" data-size="2880x1578" class="card-image">
-                <img src="img/works/thumb/thumb_work01.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">
-                  フリマアプリケーション(Rails)
-                  <span class="card-caption-url"><a class="url-link" href="http://18.177.240.72/"
-                      target="_blank">Link</a></span>
-                </p>
-                <div>
-                  <p>
-                    <br>スクールのチーム開発で作成したアプリケーション
-                    <br>担当箇所は、AWSへのデプロイ関連全般(EC2の設定等、自動デプロイ、S3、本番環境でのエラー対処)、カテゴリ機能全般、出品機能、商品編集機能全般、etc...
-                    <br>GitHub(issue)
-                    <a href="https://github.com/snskOgata/freemarket_sample_68a/issues/56" target="_blank"
-                      rel="noopener noreferrer">フリマアプリ</a>
-                    <br>(テスト用アカウントなどが記載されています)
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work02.jpg" data-size="2874x1560" class="card-image">
-                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">画像投稿アプリケーション(Rails x React)</p>
-                <div>
-                  <p>
-                    <br>Rails APIとReact SPAの画像投稿アプリケーション
-                    <br>React側の使用技術としてはredux, react router, thunk, react-token-auth, bootstrapなど
-                    <br>GitHub:<a href="https://github.com/snskOgata/pict-tweet-front-end" target="_blank"
-                      rel="noopener noreferrer">React SPA</a>,
-                    <a href="https://github.com/snskOgata/pict-tweet-server-side" target="_blank"
-                      rel="noopener noreferrer">Rails API</a>
-                  </p>
-                </div>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work03.jpg" data-size="2880x1580" class="card-image">
-                <img src="img/works/thumb/thumb_work03.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">リアルタイムチャットアプリケーション(Rails)</p>
-                <p>
-                  <br>スクールで作ったチャットアプリケーション
-                  <br>Railsの基本に加えて、非同期通信を用いて、コメントのリアルタイム表示やインクリメンタルサーチを実装
-                  <br>またカリキュラム外で、RSpecでのテスト駆動開発を用いて再構築を行い、TDDを経験した
-                  <br>GitHub:
-                  <a href="https://github.com/snskOgata/chat-space" target="_blank" rel="noopener noreferrer">通常盤</a>,
-                  <a href="https://github.com/snskOgata/tdd-chat-space" target="_blank"
-                    rel="noopener noreferrer">TDD版</a>
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work04.jpg" data-size="1650x1630" class="card-image">
-                <img src="img/works/thumb/thumb_work04.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">iOS用ゲーム(objective-C/swift)</p>
-                <p>
-                  <br>学部時代に作成したiOS用のゲームアプリケーション
-                  <br>一方はobjective-C、もう一方はswiftで記述
-                  <br>リポジトリは以前使用していたものです
-                  <br>GitHub:
-                  <a href="https://github.com/ShunsukeOgata/BouncingBear" target="_blank"
-                    rel="noopener noreferrer">棒避けゲーム</a>,
-                  <a href="https://github.com/ShunsukeOgata/TapFast" target="_blank"
-                    rel="noopener noreferrer">早押しゲーム</a>
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work05.jpg" data-size="1800x1366" class="card-image">
-                <img src="img/works/thumb/thumb_work05.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">強化学習を用いたオセロAI(Java)</p>
-                <p>
-                  <br>研究室で作った強化学習AI(教師なし学習)
-                  <br>アルゴリズムを調べ、それを実際のアプリケーションに組み込んだ。これにより、min-max法で四隅をより取ってくるAIに対して、勝敗のみから学習をし、結果
-                  端を取らせつつも中央を取り切って勝つようなった
-                  <br>GitHub:
-                  <a href="https://github.com/snskOgata/Othello_RLAI" target="_blank"
-                    rel="noopener noreferrer">Othello_RLAI</a>
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="card">
-              <a href="img/works/work06.jpg" data-size="980x668" class="card-image">
-                <img src="img/works/thumb/thumb_work06.jpg" alt="" />
-              </a>
-              <figcaption class="card-caption">
-                <p class="card-caption-title">実データを用いたSVM</p>
-                <p>
-                  <br>学部3年時に発表した、看護師スケジューリングデータを用いたインシデント発生検知方式(教師あり学習)
-                  <br>実際のスケジューリングデータから、インシデントの発生の有無を判断するサポートベクターマシン(SVM)を作成し、その実用性を論じたもの
-                  <br>論文：
-                  <a href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=162732" target="_blank"
-                    rel="noopener noreferrer">情報処理学会 電子図書館</a>
-                </p>
-              </figcaption>
-            </figure>
+        </section>
 
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="feature">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">FEATURE</h2>
-            <p class="section-desc">
-              最新の制作実績です。
-            </p>
-          </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image">
-              <img src="img/feature/feature.jpg" alt="">
-            </div>
-            <div class="two-column-desc">
-              <p class="text">
-                作品タイトル：phonety(Rails)<br> 制作期間：2週間
-                <br> URL：
-                <a href="https://arcane-waters-08193.herokuapp.com/" target="_blank"
-                  rel="noopener noreferrer">https://arcane-waters-08193.herokuapp.com/</a><br>
-                テストユーザ<br>
-                email: test@gmail.com<br>
-                password: foobar <br>
-                <br> GitHub：
-                <a href="https://github.com/snskOgata/phonety" target="_blank"
-                  rel="noopener noreferrer">https://github.com/snskOgata/phonety</a><br>
-                <br>英語学習支援アプリケーション
-                <br>(※GoogleChromeでのみ使用できます)
-                <br>
-                <br>自身がTOEIC900点を取得した際に使用した学習方法をアプリケーションによって誰でも行えるようにと開発したもの。
-                <br>
-                <br>実装可能性の確認のためのモックアップなので、足りない機能やUIは、新しく作り直す際に改善します。
-                <br>またその際には、Rails APIとReact SPAによる実装でUXの向上、React Nativeによるスマホ対応にも挑戦したいと思います。
-                <br>
-                <br>使用技術：
-                <br>Ruby/Ruby on Rails/HTML/CSS/Javasript/ SQLite/Postgresql/Git/GitHub/Heroku/ Haml/Sass/jQuery/
-                Cal-heatmap/GoogleWebSpeechAPI/UIKit/ Devise/Trix/kaminari/
+        <section class="section" id="feature">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title">FEATURE</h2>
+              <p class="section-desc">
+                最新の制作実績です。
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="about">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">ABOUT</h2>
-            <p class="section-desc">
-              こんにちは。小形俊輔と申します。
-            </p>
-          </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image">
-              <img src="img/profile/img_profile.png" alt="">
+            <div class="two-column-wrapper">
+              <div class="two-column-image">
+                <img src="img/feature/feature.jpg" alt="" />
+              </div>
+              <div class="two-column-desc">
+                <p class="text">
+                  作品タイトル：phonety(Rails)<br />
+                  制作期間：2週間 <br />
+                  URL：
+                  <a
+                    href="https://arcane-waters-08193.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://arcane-waters-08193.herokuapp.com/</a
+                  ><br />
+                  テストユーザ<br />
+                  email: test@gmail.com<br />
+                  password: foobar <br />
+                  <br />
+                  GitHub：
+                  <a
+                    href="https://github.com/snskOgata/phonety"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://github.com/snskOgata/phonety</a
+                  ><br />
+                  <br />英語学習支援アプリケーション
+                  <br />(※GoogleChromeでのみ使用できます)
+                  <br />
+                  <br />自身がTOEIC900点を取得した際に使用した学習方法をアプリケーションによって誰でも行えるようにと開発したもの。
+                  <br />
+                  <br />実装可能性の確認のためのモックアップなので、足りない機能やUIは、新しく作り直す際に改善します。
+                  <br />またその際には、Rails APIとReact
+                  SPAによる実装でUXの向上、React
+                  Nativeによるスマホ対応にも挑戦したいと思います。
+                  <br />
+                  <br />使用技術： <br />Ruby/Ruby on Rails/HTML/CSS/Javasript/
+                  SQLite/Postgresql/Git/GitHub/Heroku/ Haml/Sass/jQuery/
+                  Cal-heatmap/GoogleWebSpeechAPI/UIKit/ Devise/Trix/kaminari/
+                </p>
+              </div>
             </div>
-            <div class="two-column-desc">
-              <p class="text">
-                大学では情報系の学科で技術者試験に出てくるようなITの基本技術について学び、また研究室では機械学習やe-leargningについて学んでいました。<br>
-                しばらく病に臥していましたが、昨年の秋に手術をし、心身ともに完全復活！<br>
-                昨年12月からプログラミング学習を再開し、同月にTECH::EXPERT(現TECH::CAMP)に入校。<br>
-                最終課題のチーム開発では、他のチームより1、2人少ない状況の中で、上手くチームメンバーを支えながら開発を進め、無事 期間内にアプリケーションの作成を終えることができました！<br><br>
-                現在はReact HooksやReact Native、TypeScriptなどJS周りの知識や、AWS、Docker、CI/CDなどの開発基盤の部分の学習に取り掛かっています。<br><br>
-                TECH内で学習内容の共有のためのLT会を2度開くなど、面白そうと思ったことを能動的にやれることが自分の強みかと思います！<br><br>
-                また病気で塞ぎ込んでいた期間に学んだ、健康や記憶・学習についての知識などを以て、技術的な部分以外でのチームの底上げに力になれると思っております。<br><br>
-                短期的目標：<br>
-                ある程度 普遍的な技術力・思考力をガンガン身に付けチーム・会社に貢献する！<br>
-                中期的目標：<br>
-                新しい技術をどんどんキャッチアップしていきチームやコミュニティを引っ張っていける存在になる！<br>
-                長期的目標：<br>
-                ヒトの可能性をもっともっと発揮できるようにすることをシステムによって実現したい！
+          </div>
+        </section>
+        <section class="section" id="about">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title">ABOUT</h2>
+              <p class="section-desc">
+                こんにちは。小形俊輔と申します。
               </p>
             </div>
+            <div class="two-column-wrapper">
+              <div class="two-column-image">
+                <img src="img/profile/img_profile.png" alt="" />
+              </div>
+              <div class="two-column-desc">
+                <p class="text">
+                  大学では情報系の学科で技術者試験に出てくるようなITの基本技術について学び、また研究室では機械学習やe-leargningについて学んでいました。<br />
+                  しばらく病に臥していましたが、昨年の秋に手術をし、心身ともに完全復活！<br />
+                  昨年12月からプログラミング学習を再開し、同月にTECH::EXPERT(現TECH::CAMP)に入校。<br />
+                  最終課題のチーム開発では、他のチームより1、2人少ない状況の中で、上手くチームメンバーを支えながら開発を進め、無事
+                  期間内にアプリケーションの作成を終えることができました！<br /><br />
+                  現在はReact HooksやReact
+                  Native、TypeScriptなどJS周りの知識や、AWS、Docker、CI/CDなどの開発基盤の部分の学習に取り掛かっています。<br /><br />
+                  TECH内で学習内容の共有のためのLT会を2度開くなど、面白そうと思ったことを能動的にやれることが自分の強みかと思います！<br /><br />
+                  また病気で塞ぎ込んでいた期間に学んだ、健康や記憶・学習についての知識などを以て、技術的な部分以外でのチームの底上げに力になれると思っております。<br /><br />
+                  短期的目標：<br />
+                  ある程度
+                  普遍的な技術力・思考力をガンガン身に付けチーム・会社に貢献する！<br />
+                  中期的目標：<br />
+                  新しい技術をどんどんキャッチアップしていきチームやコミュニティを引っ張っていける存在になる！<br />
+                  長期的目標：<br />
+                  ヒトの可能性をもっともっと発揮できるようにすることをシステムによって実現したい！
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="section" id="skill">
+        </section>
+        <section class="section" id="skill">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title">SKILL</h2>
+              <p class="section-desc">
+                まだまだ未熟ですが、めちゃくちゃ勉強して圧倒的成長します！！！
+              </p>
+            </div>
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill01.png" alt="" />
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Ruby(Ruby on Rails)</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">
+                    TECH::EXPERTで基本的なRailsアプリケーションを幾つか作り、その後チーム開発ではフリマアプリを作成。<br />
+                    個人でもRails Tutorialやテスト駆動開発、Rails
+                    apiの作成など様々に学習した。<br />
+                    まだ初学者を卒業したてな段階だが、MVCやWebフレームワークを用いた開発についての理解を深められた。
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill02.png" alt="" />
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">javascript(React/jQuery)</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">
+                    javascript/jQueryは、簡単なDOM操作や非同期通信などの実装に用いた。<br />
+                    Reactは、初めはFluxを用いた簡単なアプリケーション作成し、その後Reduxを用いてYahoo
+                    shoppingのAPIから取得した情報を表示するアプリを作成。<br />
+                    続いて自分でサーバサイドのAPIを作成し、それと連携させたSPAを作成した。<br />
+                    現在はReact HooksやTypeScriptを学習しており、今後はReact
+                    Nativeを学習し、スマホアプリにも挑戦したいと思っています。
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill05.png" alt="" />
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">AWS</h3>
+                  <div class="rating">
+                    <p class="rate rate2"></p>
+                  </div>
+                  <p class="text">
+                    スクールのチーム開発ではデプロイ担当を任され、EC2の各種設定や自動デプロイ、S3の設定、本番環境でのエラー対処を行った。<br />
+                    加えてAWSの本をいくつか読み、実装は試みていないが、様々な機能があることを勉強中した。<br />
+                    現在はDockerを用いて、Rails　APIとReact
+                    SPAを一緒くたにして、AWSへのデプロイをすることが当面の目標。<br />
+                    AWSの10分チュートリアルをもっといろいろ勉強します！
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill03.png" alt="" />
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">Java(PlayFramework)</h3>
+                  <div class="rating">
+                    <p class="rate rate3"></p>
+                  </div>
+                  <p class="text">
+                    学部時代、Javaを主に使用する研究室に属していたため、Javaでオブジェクト指向について叩き込まれる。<br />
+                    3年の冬にはJavaを用いたAIの作成を課題に出され、アルゴリズムの部分を全て請け負う。
+                    <br />
+                    4年時にはSphinx4というCMUの音声認識エンジンを用いたe-learning用のアプリケーションもJavaで作成していた。<br />
+                    WebフレームワークはPlayを少し触ったことがある程度。
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="skill-icon">
+                  <img src="img/skill/icon_skill04.png" alt="" />
+                </div>
+                <div class="skill-desc">
+                  <h3 class="skill-desc-title">swift/objective-C</h3>
+                  <div class="rating">
+                    <p class="rate rate2"></p>
+                  </div>
+                  <p class="text">
+                    一番初めに触ったオブジェクト指向言語。<br />
+                    簡単なiOSアプリケーションをobjective-C/swiftでそれぞれ作成。<br />
+                    その後、インターンでswiftを用いてユーザ新規登録やユーザ情報追加等の部分を担当。<br />
+                    開発をしていたときからかなり時間が立っているので、現在の潮流のようなものは掴めていない。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="contact">
+          <div class="inner">
+            <div class="section-title-block">
+              <h2 class="section-title">CONTACT</h2>
+              <p class="section-desc">
+                SNSやその他関連サイト
+              </p>
+            </div>
+            <div class="contact-wrapper">
+              <div class="contact-list">
+                <ul>
+                  <li>
+                    <a href="mailto:snsk.ogata&#64;gmail.com"
+                      ><img src="img/contact/icon_contact01.png" alt="" /><span
+                        class="contact-list-desc"
+                        >Email</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://twitter.com/snskOgata"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="img/contact/icon_contact02.png" alt="" /><span
+                        class="contact-list-desc"
+                        >Twitter</span
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://qiita.com/snskOgata"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><img src="img/contact/icon_contact03.png" alt="" /><span
+                        class="contact-list-desc"
+                        >Qiita</span
+                      ></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
         <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">SKILL</h2>
-            <p class="section-desc">
-              まだまだ未熟ですが、めちゃくちゃ勉強して圧倒的成長します！！！
-            </p>
-          </div>
-          <div class="card-wrapper">
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_skill01.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">Ruby(Ruby on Rails)</h3>
-                <div class="rating">
-                  <p class="rate rate3"></p>
-                </div>
-                <p class="text">
-                  TECH::EXPERTで基本的なRailsアプリケーションを幾つか作り、その後チーム開発ではフリマアプリを作成。<br>
-                  個人でもRails Tutorialやテスト駆動開発、Rails apiの作成など様々に学習した。<br>
-                  まだ初学者を卒業したてな段階だが、MVCやWebフレームワークを用いた開発についての理解を深められた。
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_skill02.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">javascript(React/jQuery)</h3>
-                <div class="rating">
-                  <p class="rate rate3"></p>
-                </div>
-                <p class="text">
-                  javascript/jQueryは、簡単なDOM操作や非同期通信などの実装に用いた。<br>
-                  Reactは、初めはFluxを用いた簡単なアプリケーション作成し、その後Reduxを用いてYahoo shoppingのAPIから取得した情報を表示するアプリを作成。<br>
-                  続いて自分でサーバサイドのAPIを作成し、それと連携させたSPAを作成した。<br>
-                  現在はReact HooksやTypeScriptを学習しており、今後はReact Nativeを学習し、スマホアプリにも挑戦したいと思っています。
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_skill05.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">AWS</h3>
-                <div class="rating">
-                  <p class="rate rate2"></p>
-                </div>
-                <p class="text">
-                  スクールのチーム開発ではデプロイ担当を任され、EC2の各種設定や自動デプロイ、S3の設定、本番環境でのエラー対処を行った。<br>
-                  加えてAWSの本をいくつか読み、実装は試みていないが、様々な機能があることを勉強中した。<br>
-                  現在はDockerを用いて、Rails　APIとReact SPAを一緒くたにして、AWSへのデプロイをすることが当面の目標。<br>
-                  AWSの10分チュートリアルをもっといろいろ勉強します！
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_skill03.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">Java(PlayFramework)</h3>
-                <div class="rating">
-                  <p class="rate rate3"></p>
-                </div>
-                <p class="text">
-                  学部時代、Javaを主に使用する研究室に属していたため、Javaでオブジェクト指向について叩き込まれる。<br>
-                  3年の冬にはJavaを用いたAIの作成を課題に出され、アルゴリズムの部分を全て請け負う。 <br>
-                  4年時にはSphinx4というCMUの音声認識エンジンを用いたe-learning用のアプリケーションもJavaで作成していた。<br>
-                  WebフレームワークはPlayを少し触ったことがある程度。
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="skill-icon">
-                <img src="img/skill/icon_skill04.png" alt="">
-              </div>
-              <div class="skill-desc">
-                <h3 class="skill-desc-title">swift/objective-C</h3>
-                <div class="rating">
-                  <p class="rate rate2"></p>
-                </div>
-                <p class="text">
-                  一番初めに触ったオブジェクト指向言語。<br>
-                  簡単なiOSアプリケーションをobjective-C/swiftでそれぞれ作成。<br>
-                  その後、インターンでswiftを用いてユーザ新規登録やユーザ情報追加等の部分を担当。<br>
-                  開発をしていたときからかなり時間が立っているので、現在の潮流のようなものは掴めていない。
-                </p>
-              </div>
-            </div>
-          </div>
+          <nav class="footer-link">
+            <ul>
+              <li><a href="#feature">FEATURE</a></li>
+              <li><a href="#works">WORKS</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#skill">SKILL</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
-      </section>
-      <section class="section" id="contact">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title">CONTACT</h2>
-            <p class="section-desc">
-              SNSやその他関連サイト
-            </p>
-          </div>
-          <div class="contact-wrapper">
-            <div class="contact-list">
-              <ul>
-                <li><a href="mailto:snsk.ogata&#64;gmail.com"><img src="img/contact/icon_contact01.png" alt=""><span
-                      class="contact-list-desc">Email</span></a></li>
-                <li><a href="https://twitter.com/snskOgata" target="_blank" rel="noopener noreferrer"><img
-                      src="img/contact/icon_contact02.png" alt=""><span class="contact-list-desc">Twitter</span></a>
-                </li>
-                <li><a href="https://qiita.com/snskOgata" target="_blank" rel="noopener noreferrer"><img
-                      src="img/contact/icon_contact03.png" alt=""><span class="contact-list-desc">Qiita</span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer id="footer">
-      <div class="inner">
-        <nav class="footer-link">
-          <ul>
-            <li><a href="#feature">FEATURE</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-  </div>
-
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-           It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides.
-              PhotoSwipe keeps only 3 of them in the DOM to save memory.
-              Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-
-
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-        </button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-        </button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
-      </div>
-
+      </footer>
     </div>
 
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
 
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
-  <script type='text/javascript' src="js/script.js"></script>
-</body>
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
 
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+
+            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/photoswipe/photoswipe.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/photoswipe/photoswipe-ui-default.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/photoswipe/photoswipe_setup.js"
+    ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
